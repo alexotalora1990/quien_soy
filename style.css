@@ -1,0 +1,365 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+
+header {
+    background: #5d28f0;
+    position: fixed;
+    color: white;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 130%;
+}
+
+header p {
+    margin-left: 3%;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+li {
+    float: right;
+    margin-right: 10px;
+}
+
+a {
+    color: white;
+    padding: 0 4px;
+    text-decoration: none;
+    margin-right: 30px;
+
+}
+
+
+footer {
+    background: #5d28f0;
+    color: white;
+    width: 100%;
+    height: 50px;
+    margin-top: 2%;
+    display: flex;
+    justify-content: end;
+
+}
+
+footer p {
+    font-size: 80%;
+    margin-right: 3%;
+}
+
+
+.quien_soy {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    margin-top: 8%;
+    margin-right: 5%;
+    margin-left: 5%;
+    gap: 5px;
+
+
+}
+
+.quien_soy h2 {
+    color: #0077ff;
+    font-size: 400%;
+
+}
+
+.quien_soy input {
+    background-color: #0077ff;
+    color: #ffffff;
+    height: 7%;
+    border: none;
+    border-radius: 10%;
+    font-size: 120%;
+
+}
+
+.quien_soy p {
+    text-align: justify;
+}
+
+p {
+    font-size: 130%;
+
+}
+
+.imagen {
+    width: 80%;
+    height: 100%;
+    text-align: center;
+}
+
+
+.caricatura {
+    text-align: center;
+    background-color: #5d28f0;
+    color: wheat;
+    padding: 5%;
+}
+
+.avatar {
+    width: 20%;
+    border-radius: 100%;
+}
+
+.proyectos {
+    text-align: center;
+    font-size: 300%;
+    color: #0077ff
+}
+
+.container5 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 5%;
+    margin-right: 5%;
+    gap: 10px;
+
+
+}
+
+
+.container {
+    border: solid 1px black;
+    margin: 1%;
+    padding: 1%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    text-align: center;
+}
+
+.container h3 {
+    text-align: center;
+    font-size: 200%;
+}
+
+.container input {
+    background-color: #0077ff;
+    color: #ffffff;
+    width: 30%;
+    height: 40px;
+    /* border: none; */
+    margin-left: 38%;
+    border-radius: 8%;
+    font-size: 120%;
+
+}
+
+.container p {
+    text-align: justify;
+    padding: 2%;
+}
+
+
+
+.imagen_1 {
+    width: 70%;
+    height: 280px;
+    margin-top: 10%;
+}
+
+
+@media(max-width: 1366px) {
+    .container input {
+        margin-left: 90px;
+        font-size: 110%;
+    }
+
+    .imagen_1 {
+        width: 60%;
+        height: 200px;
+        margin-top: 10%;
+    }
+
+    .container h3 {
+        text-align: center;
+        font-size: 180%;
+    }
+}
+
+@media(max-width: 1200px) {
+    .container input {
+        margin-left: 80px;
+        font-size: 100%;
+    }
+
+    .imagen_1 {
+        width: 50%;
+        height: 150px;
+        margin-top: 10%;
+    }
+
+    .container h3 {
+        text-align: center;
+        font-size: 150%;
+    }
+
+    .container5 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+    }
+
+    .container input {
+        width: 30%;
+        height: 40px;
+        /* border: none; */
+        margin-left: 38%;
+        margin-bottom: 10px;
+        border-radius: 8%;
+
+    }
+
+    .container {
+        border: solid 1px black;
+        margin: 1%;
+        padding: 0%;
+        height: 100%;
+        display: grid;
+        grid-template-rows: auto;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .container p {
+        text-align: justify;
+        padding: 5%;
+
+    }
+}
+
+@media(max-width: 1025px) {
+    .container input {
+        margin-left: 110px;
+        font-size: 90%;
+    }
+
+    .imagen_1 {
+        width: 40%;
+        height: 130px;
+        margin-top: 10%;
+    }
+
+    .container h3 {
+        text-align: center;
+        font-size: 140%;
+    }
+
+    .container5 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 40px;
+    }
+
+    .quien_soy input {
+
+        height: 7%;
+        border: none;
+        border-radius: 10%;
+        font-size: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    .container {
+        border: solid 1px black;
+        margin: 1%;
+        padding: 0%;
+        height: 100%;
+        display: grid;
+        grid-template-rows: auto;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .container p {
+        text-align: justify;
+        padding: 5%;
+        font-size: 110%;
+    }
+
+    .quien_soy p {
+        font-size: 110%;
+    }
+
+    .caricatura p {
+        font-size: 110%;
+    }
+
+    .quien_soy h2 {
+
+        font-size: 300%;
+
+    }
+
+    .proyectos {
+        font-size: 250%;
+
+    }
+}
+
+@media(max-width: 800px) {
+    header {
+        position: fixed;
+        font-size: 100%;
+    }
+
+    li {
+        float: right;
+        margin-right: 0px;
+    }
+
+    .container input {
+        margin-left: 90px;
+        font-size: 90%;
+    }
+}
+
+@media(max-width: 650px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+                font-size: 100%;                             
+
+    }
+    .naw{
+        margin-bottom: 10px;
+    }
+    .quien_soy h2 {
+        margin-top: 60px;
+    }
+    .imagen{
+        margin-top: 90px;
+        width: 60%;
+        height: 60%;
+
+    }
+    .container5{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+      
+    }
+    .container input {
+        /* margin-left: 140px; */
+        font-size: 90%;
+        justify-content: center;
+
+
+        
+    }
+    .quien_soy h2 {
+        font-size: 200%;
+        margin-top:80px;
+    }
+
+}
